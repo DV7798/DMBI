@@ -49,7 +49,7 @@ public class MinMax {
         for(int i=0;i<vi.length;i++){
             sum+=vi[i];
         }
-        float abar=sum/vi.length;
+        float abar=(float)sum/vi.length;
         System.out.println(abar+" ladl");
         float sa=0;
         float sigA;
