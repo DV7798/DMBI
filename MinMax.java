@@ -50,7 +50,7 @@ public class MinMax {
             sum+=vi[i];
         }
         float abar=(float)sum/vi.length;
-        System.out.println(abar+" ladl");
+        //System.out.println(abar+" ladl")
         float sa=0;
         float sigA;
         for(int i=0;i<vi.length;i++){
@@ -62,7 +62,7 @@ public class MinMax {
     }
     public static void decimal(int vi[]) {
         int j=Integer.toString(vi[vi.length-1]).length();
-        System.out.println("l:"+j);
+        //System.out.println("l:"+j);
         double vc[]=new double[vi.length];
         for(int i=0;i<vi.length;i++){
             vc[i]=((float)vi[i])/(Math.pow(10,j));
