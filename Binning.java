@@ -26,13 +26,13 @@ public class Binning {
         int n=value.length;
         int d=sc.nextInt();
         float p=(float)n/d;
-        System.out.println(p);
+        //System.out.println(p);
         if(p-(int)p>0&&p-(int)p<1){
             p=n/d+1;
-            System.out.println(p);
+            //System.out.println(p);
         }
         int m=(int) p;
-        System.out.println(m);
+        //System.out.println(m);
         int a[][]=new int[m][d];
         int i=0,c=0;
         for(int j=0;j<m;j++){
